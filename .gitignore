@@ -3,7 +3,9 @@ env/
 venv/
 .venv
 .venv/
-
+.env
+.json
+.log
 __pycache__/
 *.py[cod]
 
