@@ -1,0 +1,83 @@
+2021-03-07 21:03:57,504, INFO, root, Дополнительная информация
+2021-03-07 21:03:57,504, WARNING, root, Работает, но что-то не так
+2021-03-07 21:03:57,504, ERROR, root, Ошибка
+2021-03-07 21:03:57,504, CRITICAL, root, Критическая ошибка
+2021-03-07 21:13:51,821, INFO, root, Дополнительная информация
+2021-03-07 21:13:51,821, WARNING, root, Работает, но что-то не так
+2021-03-07 21:13:51,821, ERROR, root, Ошибка
+2021-03-07 21:13:51,821, CRITICAL, root, Критическая ошибка
+2021-03-07 21:16:18,104, INFO, root, Дополнительная информация
+2021-03-07 21:16:18,104, WARNING, root, Работает, но что-то не так
+2021-03-07 21:16:18,104, ERROR, root, Ошибка
+2021-03-07 21:16:18,104, CRITICAL, root, Критическая ошибка
+2021-03-07 21:29:19,131, INFO, root, Дополнительная информация
+2021-03-07 21:29:19,132, WARNING, root, Работает, но что-то не так
+2021-03-07 21:29:19,132, ERROR, root, Ошибка
+2021-03-07 21:29:19,132, CRITICAL, root, Критическая ошибка
+2021-03-07 21:33:28,661, INFO, root, Дополнительная информация
+2021-03-07 21:33:28,662, WARNING, root, Работает, но что-то не так
+2021-03-07 21:33:28,662, ERROR, root, Ошибка
+2021-03-07 21:33:28,662, CRITICAL, root, Критическая ошибка
+2021-03-08 10:25:30,668, INFO, root,(homework.py).<module>(16) Дополнительная информация
+2021-03-08 10:25:30,668, WARNING, root,(homework.py).<module>(17) Работает, но что-то не так
+2021-03-08 10:25:30,668, ERROR, root,(homework.py).<module>(18) Ошибка
+2021-03-08 10:25:30,668, CRITICAL, root,(homework.py).<module>(19) Критическая ошибка
+2021-03-08 10:35:49,500, INFO, root,(homework.py).<module>(16) Дополнительная информация
+2021-03-08 10:35:49,500, WARNING, root,(homework.py).<module>(17) Работает, но что-то не так
+2021-03-08 10:35:49,500, ERROR, root,(homework.py).<module>(18) Ошибка
+2021-03-08 10:35:49,500, CRITICAL, root,(homework.py).<module>(19) Критическая ошибка
+2021-03-08 10:36:37,514, INFO, root,(homework.py).get_homework_statuses(42) Получение статуса домашки
+2021-03-08 10:45:48,592, INFO, root,(homework.py).get_homework_statuses(43) Получение статуса домашки
+2021-03-08 12:37:46,991, INFO, root, (homework.py).get_homework_statuses(48), Получение статуса домашки
+2021-03-08 12:38:44,442, INFO, root, (homework.py).get_homework_statuses(48), Получение статуса домашки
+2021-03-08 12:42:57,182, INFO, root, (homework.py).get_homework_statuses(48), Получение статуса домашки
+2021-03-08 12:51:21,521, ERROR, root, (homework.py).main(80), Бот столкнулся с ошибкой: 'NoneType' object is not iterable
+2021-03-08 12:51:26,521, ERROR, root, (homework.py).main(80), Бот столкнулся с ошибкой: 'NoneType' object is not iterable
+2021-03-08 12:51:31,522, ERROR, root, (homework.py).main(80), Бот столкнулся с ошибкой: 'NoneType' object is not iterable
+2021-03-08 12:51:36,523, ERROR, root, (homework.py).main(80), Бот столкнулся с ошибкой: 'NoneType' object is not iterable
+2021-03-08 12:51:41,523, ERROR, root, (homework.py).main(80), Бот столкнулся с ошибкой: 'NoneType' object is not iterable
+2021-03-08 12:51:46,524, ERROR, root, (homework.py).main(80), Бот столкнулся с ошибкой: 'NoneType' object is not iterable
+2021-03-08 12:51:51,525, ERROR, root, (homework.py).main(80), Бот столкнулся с ошибкой: 'NoneType' object is not iterable
+2021-03-08 12:51:56,525, ERROR, root, (homework.py).main(80), Бот столкнулся с ошибкой: 'NoneType' object is not iterable
+2021-03-08 12:52:01,526, ERROR, root, (homework.py).main(80), Бот столкнулся с ошибкой: 'NoneType' object is not iterable
+2021-03-08 12:52:06,526, ERROR, root, (homework.py).main(80), Бот столкнулся с ошибкой: 'NoneType' object is not iterable
+2021-03-08 12:52:11,526, ERROR, root, (homework.py).main(80), Бот столкнулся с ошибкой: 'NoneType' object is not iterable
+2021-03-08 12:52:16,527, ERROR, root, (homework.py).main(80), Бот столкнулся с ошибкой: 'NoneType' object is not iterable
+2021-03-08 12:52:21,527, ERROR, root, (homework.py).main(80), Бот столкнулся с ошибкой: 'NoneType' object is not iterable
+2021-03-08 12:52:26,528, ERROR, root, (homework.py).main(80), Бот столкнулся с ошибкой: 'NoneType' object is not iterable
+2021-03-08 12:52:31,529, ERROR, root, (homework.py).main(80), Бот столкнулся с ошибкой: 'NoneType' object is not iterable
+2021-03-08 12:52:36,530, ERROR, root, (homework.py).main(80), Бот столкнулся с ошибкой: 'NoneType' object is not iterable
+2021-03-08 12:52:41,530, ERROR, root, (homework.py).main(80), Бот столкнулся с ошибкой: 'NoneType' object is not iterable
+2021-03-08 12:52:46,531, ERROR, root, (homework.py).main(80), Бот столкнулся с ошибкой: 'NoneType' object is not iterable
+2021-03-08 12:55:52,778, ERROR, root, (homework.py).main(81), Бот столкнулся с ошибкой: 'NoneType' object is not iterable
+2021-03-08 12:55:57,778, ERROR, root, (homework.py).main(81), Бот столкнулся с ошибкой: 'NoneType' object is not iterable
+2021-03-08 12:56:02,778, ERROR, root, (homework.py).main(81), Бот столкнулся с ошибкой: 'NoneType' object is not iterable
+2021-03-08 12:56:07,779, ERROR, root, (homework.py).main(81), Бот столкнулся с ошибкой: 'NoneType' object is not iterable
+2021-03-08 12:56:12,779, ERROR, root, (homework.py).main(81), Бот столкнулся с ошибкой: 'NoneType' object is not iterable
+2021-03-08 12:56:17,779, ERROR, root, (homework.py).main(81), Бот столкнулся с ошибкой: 'NoneType' object is not iterable
+2021-03-08 12:56:22,780, ERROR, root, (homework.py).main(81), Бот столкнулся с ошибкой: 'NoneType' object is not iterable
+2021-03-08 12:56:27,780, ERROR, root, (homework.py).main(81), Бот столкнулся с ошибкой: 'NoneType' object is not iterable
+2021-03-08 12:56:32,780, ERROR, root, (homework.py).main(81), Бот столкнулся с ошибкой: 'NoneType' object is not iterable
+2021-03-08 12:56:37,780, ERROR, root, (homework.py).main(81), Бот столкнулся с ошибкой: 'NoneType' object is not iterable
+2021-03-08 12:56:42,781, ERROR, root, (homework.py).main(81), Бот столкнулся с ошибкой: 'NoneType' object is not iterable
+2021-03-08 12:56:47,782, ERROR, root, (homework.py).main(81), Бот столкнулся с ошибкой: 'NoneType' object is not iterable
+2021-03-08 12:56:52,782, ERROR, root, (homework.py).main(81), Бот столкнулся с ошибкой: 'NoneType' object is not iterable
+2021-03-08 12:56:57,783, ERROR, root, (homework.py).main(81), Бот столкнулся с ошибкой: 'NoneType' object is not iterable
+2021-03-08 12:57:02,783, ERROR, root, (homework.py).main(81), Бот столкнулся с ошибкой: 'NoneType' object is not iterable
+2021-03-08 12:57:07,784, ERROR, root, (homework.py).main(81), Бот столкнулся с ошибкой: 'NoneType' object is not iterable
+2021-03-08 12:57:12,785, ERROR, root, (homework.py).main(81), Бот столкнулся с ошибкой: 'NoneType' object is not iterable
+2021-03-08 12:57:17,785, ERROR, root, (homework.py).main(81), Бот столкнулся с ошибкой: 'NoneType' object is not iterable
+2021-03-08 12:57:22,786, ERROR, root, (homework.py).main(81), Бот столкнулся с ошибкой: 'NoneType' object is not iterable
+2021-03-08 12:57:27,786, ERROR, root, (homework.py).main(81), Бот столкнулся с ошибкой: 'NoneType' object is not iterable
+2021-03-08 12:57:32,787, ERROR, root, (homework.py).main(81), Бот столкнулся с ошибкой: 'NoneType' object is not iterable
+2021-03-08 12:57:37,787, ERROR, root, (homework.py).main(81), Бот столкнулся с ошибкой: 'NoneType' object is not iterable
+2021-03-08 12:57:42,788, ERROR, root, (homework.py).main(81), Бот столкнулся с ошибкой: 'NoneType' object is not iterable
+2021-03-08 12:57:47,789, ERROR, root, (homework.py).main(81), Бот столкнулся с ошибкой: 'NoneType' object is not iterable
+2021-03-08 12:57:52,790, ERROR, root, (homework.py).main(81), Бот столкнулся с ошибкой: 'NoneType' object is not iterable
+2021-03-08 12:57:57,791, ERROR, root, (homework.py).main(81), Бот столкнулся с ошибкой: 'NoneType' object is not iterable
+2021-03-08 12:58:02,791, ERROR, root, (homework.py).main(81), Бот столкнулся с ошибкой: 'NoneType' object is not iterable
+2021-03-08 12:58:07,791, ERROR, root, (homework.py).main(81), Бот столкнулся с ошибкой: 'NoneType' object is not iterable
+2021-03-08 12:58:12,792, ERROR, root, (homework.py).main(81), Бот столкнулся с ошибкой: 'NoneType' object is not iterable
+2021-03-08 12:58:17,793, ERROR, root, (homework.py).main(81), Бот столкнулся с ошибкой: 'NoneType' object is not iterable
+2021-03-08 12:58:22,794, ERROR, root, (homework.py).main(81), Бот столкнулся с ошибкой: 'NoneType' object is not iterable
+2021-03-08 13:12:25,787, INFO, root, (homework.py).get_homework_statuses(47), Получение статуса домашки
