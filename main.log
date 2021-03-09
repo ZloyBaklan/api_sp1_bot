@@ -11,3 +11,4 @@
 2021-03-09 20:27:32,253, INFO, root, (homework.py).parse_homework_status(30), Определение этапа проверки
 2021-03-09 20:27:32,253, INFO, root, (homework.py).send_message(59), Отправка сообщения ботом
 2021-03-09 20:32:32,438, INFO, root, (homework.py).get_homework_statuses(46), Получение статуса домашки
+2021-03-09 21:13:00,228, INFO, root, (homework.py).get_homework_statuses(45), Получение статуса домашки
