@@ -20,17 +20,17 @@ CHAT_ID = os.getenv('TELEGRAM_CHAT_ID')
 YA_API_URL = 'https://praktikum.yandex.ru/api/user_api/homework_statuses/'
 
 STATUSES = {
-        'rejected': 'К сожалению в работе нашлись ошибки.',
-        'approved': 'Ревьюеру всё понравилось,'
-                     ' можно приступать к следующему уроку.',
-        'reviewing': 'Работа в процессе проверки',
+    'rejected': 'К сожалению в работе нашлись ошибки.',
+    'approved': 'Ревьюеру всё понравилось,'
+                ' можно приступать к следующему уроку.',
+    'reviewing': 'Работа в процессе проверки',
 }
+
 
 def parse_homework_status(homework):
     logging.info('Определение этапа проверки')
     homework_name = homework.get('homework_name')
     homework_status = homework.get('status')
-    homework_verdict = homework.get('verdict')
     if homework_name is None or homework_status is None:
         logging.error('Проверьте загружена ли домашка')
         return f'Ошибка, {homework_name} не работает правильно или отсутствует'
@@ -78,7 +78,7 @@ def main():
             logging.error(f'Бот столкнулся с ошибкой запроса: {e}')
             send_message(
                 f'Бот столкнулся с ошибкой запроса: {e}', bot
-                )
+            )
 
 
 if __name__ == '__main__':
