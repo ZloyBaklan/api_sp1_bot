@@ -9,7 +9,7 @@ venv/
 __pycache__/
 *.py[cod]
 
-.log
+main.log
 
 .idea
 *.env
