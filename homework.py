@@ -34,13 +34,11 @@ def parse_homework_status(homework):
     if homework_name is None or homework_status is None:
         logging.error('Проверьте загружена ли домашка')
         return f'Ошибка, {homework_name} не работает правильно или отсутствует'
-    elif homework_status in VERDICT.keys():
-        return 'У вас проверили работу ' \
-               f'"{homework_name}"!\n\n{VERDICT[homework_status]}'
-    else:
-        logging.warning(f'Неизвестный статус домашки: {homework_status}')
-        return 'Ошибка:' \
-               f'{homework_status} не сопоставим с {VERDICT[homework_status]}'
+    if homework_status in VERDICT:
+        return ('У вас проверили работу '
+                f'"{homework_name}"!\n\n{VERDICT[homework_status]}')
+    logging.warning(f'Неизвестный статус домашки: {homework_status}')
+    return f'Ошибка:{homework_status} не опознан(отсутствует вариант вердикта)'
 
 
 def get_homework_statuses(current_timestamp):
@@ -53,6 +51,7 @@ def get_homework_statuses(current_timestamp):
     except requests.exceptions.RequestException as e:
         logging.error('Ошибка получения статуса домашки'
                       f'с заголовком {headers} и параметрами {params} : {e}')
+        return {}
     return homework_statuses.json()
 
 
