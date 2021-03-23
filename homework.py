@@ -1,5 +1,6 @@
 import logging
 import os
+import re
 import time
 
 import requests
@@ -31,12 +32,15 @@ def parse_homework_status(homework):
     logging.info('Определение этапа проверки')
     homework_name = homework.get('homework_name')
     homework_status = homework.get('status')
+    lesson_name = homework.get('lesson_name')
+    reviewer_comment = homework.get('reviewer_comment')
     if homework_name is None or homework_status is None:
         logging.error('Проверьте загружена ли домашка')
         return f'Ошибка, {homework_name} не работает правильно или отсутствует'
     if homework_status in VERDICT:
-        return ('У вас проверили работу '
-                f'"{homework_name}"!\n\n{VERDICT[homework_status]}')
+        return (f'Привет, это по поводу твоей работы:\n {lesson_name}\n '
+                f'"{homework_name}"!\n\n{VERDICT[homework_status]}\n\n'
+                f'Комментарий: {reviewer_comment}')
     logging.warning(f'Неизвестный статус домашки: {homework_status}')
     return f'Ошибка:{homework_status} не опознан(отсутствует вариант вердикта)'
 
@@ -49,6 +53,9 @@ def get_homework_statuses(current_timestamp):
     try:
         homework_statuses = requests.get(url, params=params, headers=headers)
     except requests.exceptions.RequestException as e:
+        '''Цензура на символы в выводе заголовка с ТОКЕНОМ'''
+        headers_view = re.compile('(b|1|B|d|C|c|2|4|x|X|3|5|Y|6|7|8|9|p|P)')
+        headers = headers_view.sub('*', str(headers))
         logging.error('Ошибка получения статуса домашки'
                       f'с заголовком {headers} и параметрами {params} : {e}')
         return {}
