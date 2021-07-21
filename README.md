@@ -1,4 +1,4 @@
-# api_sp1_bot
+# Telegram_bot (api_sp1_bot)
 This project is a Telegram bot that:
 accesses the API of the Praktikum.Domashka service;
 finds out if the homework was taken in the review, whether it has been checked, failed or accepted;
