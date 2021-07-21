@@ -10,3 +10,4 @@ The polling mechanism has been implemented.
 The bot logs the moment of its launch (DEBUG level) and every message sending (INFO level). 
 Modify: The bot logs messages of the ERROR level and (additionally) sends you to Telegram.
 FileHandler and StreamHandler handlers are used for logs.
+Bot uses Heroku server.
